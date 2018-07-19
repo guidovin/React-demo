@@ -1,0 +1,33 @@
+/* {margin: 0; padding: 0;}
+ 
+#Application {
+  margin: 20px;
+}
+ 
+#InfoList {
+  list-style-type: none;
+  width: 500px;
+}
+ 
+InfoList h3 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+ 
+InfoList img {
+  float: left;
+  margin: 0 15px 0 0;
+}
+ 
+InfoList p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+ 
+InfoList {
+  padding: 10px;
+  overflow: auto;
+}
+ 
+InfoList:hover {
+  background: #eee;
+  cursor: pointer;
+}*/
