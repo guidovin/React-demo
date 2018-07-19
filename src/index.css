@@ -1,11 +1,24 @@
-body{
-    padding: 50px;
-    font-family: sans-serif;
+body, html{
+    height:100%;
+}
+
+.Application {
     
-    background-color: darkgray;
-     
-}   
-#container{
-    justify-content: flex;
-    display: flex;
+    justify-content: center;
+    display: center;
+    /* The image used */
+    background-image: url(http://via.placeholder.com/1920x1080);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.InfoUL {
+    display: center;
+    justify-content: center;
 }

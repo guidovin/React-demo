@@ -1,18 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import InfoList from '/home/guidovin/Desktop/tribo-dev/tribo-front/tribo-info/src/components/infoList'
+import InfoList from '/home/guidovin/Desktop/tribo-dev/tribo-info/src/components/infoList'
+
 
 const root = document.querySelector('#container');
 
 ReactDOM.render(
+    <div className='Application' style={{display: 'flex', justifyContent: 'center',backgroundSize:'cover',backgroundRepeat:'no-repeat', backgroundPosition:'center', height:'100%' , backgroundImage: 'url("http://via.placeholder.com/1920x1080")'}}>
     
-    <div className='Application'>
-
-        {console.log('iniciei render da dom')}
-        
         <InfoList/>
-
+        
     </div>,
     root
 );

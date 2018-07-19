@@ -1,40 +1,43 @@
 import React, {Component} from 'react'
-import Hailmary from '/home/guidovin/Desktop/tribo-dev/tribo-front/tribo-info/src/components/infoList'
+import InfoListItem from '/home/guidovin/Desktop/tribo-dev/tribo-info/src/components/infoListItem'
 
 export default class InfoList extends Component {
 
     render () {
 
-        {console.log('iniciei info list')}
+       
         const lista = [
             {
                 titulo: 'sorvete1',
                 msg: 'dlkasdlkajsdlkjasfbasicuyawekjbajgaskkjdaygscjhabsjyg',
-                img: 'http://lorempixel.com/50/50/',
+                img: require('/home/guidovin/Desktop/tribo-dev/tribo-info/src/resources/50x50.jpg'),
             },
             {   
                 titulo: 'sorvete2',
                 msg: 'dlkasdlkajsdlkjasfbasicuyawekjbajgaskkjdaygscjhabsjyg',
-                img: 'http://lorempixel.com/50/50/',
+                img: require('/home/guidovin/Desktop/tribo-dev/tribo-info/src/resources/50x50.jpg'),
             },
             {   
                 titulo: 'sorvete3',
                 msg: 'dlkasdlkajsdlkjasfbasicuyawekjbajgaskkjdaygscjhabsjyg',
-                img: 'http://lorempixel.com/50/50/',
+                img: require('/home/guidovin/Desktop/tribo-dev/tribo-info/src/resources/50x50.jpg'),
             },
         ]
 
         return(
 
-            <div className='InfoList'>
-                    <Hailmary/>
+            <div className='InfoUL'>
+                    
                     {lista.map( (a) => {
-                    {console.log(a.titulo +' '+ a.msg+ ' '+ a.img + ' ' + lista.length)}
-                    return (/*<InfoListItem/>*/ '')
+                         return (
+
+                             <InfoListItem titulo={a.titulo} img={a.img} msg={a.msg}/>
+                             
+                            )
                     
                     })}
 
-                    {console.log('sim2')}
+                    
             </div>
         )
     }
