@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-
+import ILitemStyle from '/home/guidovin/Desktop/tribo-dev/tribo-info/src/components/infoList/infolist.module.css'
 
 export default class ListItem extends Component{
    
@@ -11,7 +11,7 @@ export default class ListItem extends Component{
     render(){
         
         return (
-            <div className='InfoLI'>
+            <div className='InfoLI' style={ILitemStyle.style}_>
                 <img src={this.props.img} alt='image did not load for some reason... goddamnit'/>
                 <h3>{this.props.titulo}</h3>
                 <p>{this.props.msg}</p>
