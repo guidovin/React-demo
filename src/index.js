@@ -4,6 +4,7 @@ import HeaderNav from '/home/guidovin/Desktop/tribo-dev/tribo-info/src/component
 import WelcomeImage from '/home/guidovin/Desktop/tribo-dev/tribo-info/src/components/welcomeImage'
 import Footer from '/home/guidovin/Desktop/tribo-dev/tribo-info/src/components/footer'
 import InfoList from '/home/guidovin/Desktop/tribo-dev/tribo-info/src/components/infoList'
+
 import AppStyle from  './index.module.css'
 
 const root = document.querySelector('#container');
@@ -17,4 +18,4 @@ ReactDOM.render(
         
     </div>,
     root
-);
+);              

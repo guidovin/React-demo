@@ -39,7 +39,7 @@ export default class InfoList extends Component {
                         
                          return (
 
-                             <InfoListItem titulo={a.titulo} img={a.img} msg={a.msg} key={Date.now()}/>
+                             <InfoListItem titulo={a.titulo} img={a.img} msg={a.msg} key={Math.random()}/>
                              
                             )
                     

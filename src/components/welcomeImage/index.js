@@ -6,7 +6,7 @@ general stuff from project: add alias to pathing laternatively figure why the f*
 */
 
 
-export default class ListItem extends Component{
+export default class WelcomeImage extends Component{
  
     render(){
 
