@@ -11,6 +11,7 @@ const root = document.querySelector('#container');
 
 ReactDOM.render(
     <div className={AppStyle.App}>
+
         <HeaderNav/>
         <WelcomeImage/>
         <InfoList className={AppStyle.InfoUL}/>

@@ -1,9 +1,14 @@
-html {
-  background: url("http://via.placeholder.com/1920x1080") no-repeat center center fixed;
+.App {
+  background: no-repeat  center center fixed;
+  background-color: red;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  padding: 0px;
+  margin: 0px; }
 
-.App {
-  background-color: aquamarine; }
+.InfoUl {
+  width: 100vw; }

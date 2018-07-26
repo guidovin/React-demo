@@ -8,6 +8,14 @@ stuff that needs updating in this module: receive data from DB, add to array of 
 general stuff from project: add alias to pathing laternatively figure why the f*** the relative pathing does not work in the dev enviro
 */
 
+/*
+about:
+    Constructor component and wraper of the product list 
+    in the nutritional information page from the Tribo website.
+status:
+    work in progress.
+*/
+
 export default class InfoList extends Component {
 
     render () {

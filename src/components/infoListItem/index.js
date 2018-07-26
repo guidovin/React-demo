@@ -45,10 +45,11 @@ export default class ListItem extends Component{
                 </div>
 
                 <Modal className={ModuleStyle.LIModal} open={open} onClose={this.onCloseModal.bind(this)}> 
-                
-                    <img src={this.props.img} alt='didnt load'/>
-                    <p>{this.props.msg}</p>
-                
+                    <div className={ModuleStyle.ModalWrap}>
+                        <img src={this.props.img} alt='didnt load'/>
+                        <img src={this.props.img} alt='didnt load'/>
+                        <p>{this.props.msg + ' ajsjdhajjshdkjashdiuqqnnkjjasdyqwbbgasdsjgiqb,eqwbdakjsdibnbsbda'}</p>
+                    </div>
                 </Modal>
 
             </div>
