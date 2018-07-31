@@ -1,26 +1,48 @@
 import React, {Component} from 'react'
+import ModuleStyle from '../headerNav/headerNav.module.css'
+import SideNav from '../sideNav'
 
-/*
-stuff that needs updating in this module: styling in headerNav.module.scss, also everything else, it`s barebones.
-general stuff from project: add alias to pathing laternatively figure why the f*** the relative pathing does not work in the dev enviro. Add redux(?).
-*/
+
 
 
 export default class HeaderNav extends Component{
- 
-    render(){
+    constructor(props){
+        super(props)
 
+        this.state = {navOn: false}
 
+    }   
+    
+    buttomClick(){
 
-        return (
-
-            <div>
-
-
-            </div>
-
-        )
-
+        this.setState({navOn: !this.state.navOn})
+        
+        
     }
+
+
+    
+    render(){
+        
+        if(true){
+            return (
+                
+                <div className={ModuleStyle.HeaderNav} id='headerTarget'>
+
+                    <div className={ModuleStyle.NavMenu} onClick={this.buttomClick.bind(this)}></div>
+
+                    
+                    <SideNav isOpen={this.state.navOn} onClick={this.buttomClick.bind(this)}/>
+                    
+
+                </div>
+                
+
+            )
+        }
+    }
+
+
+    
 
 }

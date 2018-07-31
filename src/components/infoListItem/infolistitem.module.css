@@ -3,3 +3,16 @@
 
 .ModalWrap {
   display: flex; }
+
+.InfoLI {
+  display: table;
+  justify-content: center;
+  width: 100%;
+  background-color: aliceblue;
+  min-height: 100px;
+  position: relative; }
+
+.ItemName {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center; }

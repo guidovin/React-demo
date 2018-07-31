@@ -1,22 +1,12 @@
 import React, {Component} from 'react'
-import InfoListItem from '/home/guidovin/Desktop/tribo-dev/tribo-info/src/components/infoListItem'
-import StyleModule from '/home/guidovin/Desktop/tribo-dev/tribo-info/src/components/infoList/infolist.module.css'
+import InfoListItem from '../infoListItem'
+import ModuleStyle from '../infoList/infolist.module.css'
 
 
-/*
-stuff that needs updating in this module: receive data from DB, add to array of objects, if no key on objects add keys before maping, styling in infolist.module.scss
-general stuff from project: add alias to pathing laternatively figure why the f*** the relative pathing does not work in the dev enviro
-*/
-
-/*
-about:
-    Constructor component and wraper of the product list 
-    in the nutritional information page from the Tribo website.
-status:
-    work in progress.
-*/
 
 export default class InfoList extends Component {
+   
+   
 
     render () {
 
@@ -36,26 +26,138 @@ export default class InfoList extends Component {
                 titulo: 'sorvete3',
                 msg: 'dlkasdlkajsdlkjasfbasicuyawekjbajgaskkjdaygscjhabsjyg',
                 img: require('/home/guidovin/Desktop/tribo-dev/tribo-info/src/resources/50x50.jpg'),
+            }, 
+            {
+                titulo: 'sorvete4',
+                msg: 'dlkasdlkajsdlkjasfbasicuyawekjbajgaskkjdaygscjhabsjyg',
+                img: require('/home/guidovin/Desktop/tribo-dev/tribo-info/src/resources/50x50.jpg'),
+            },
+            {   
+                titulo: 'sorvete5',
+                msg: 'dlkasdlkajsdlkjasfbasicuyawekjbajgaskkjdaygscjhabsjyg',
+                img: require('/home/guidovin/Desktop/tribo-dev/tribo-info/src/resources/50x50.jpg'),
+            },
+            {   
+                titulo: 'sorvete6',
+                msg: 'dlkasdlkajsdlkjasfbasicuyawekjbajgaskkjdaygscjhabsjyg',
+                img: require('/home/guidovin/Desktop/tribo-dev/tribo-info/src/resources/50x50.jpg'),
+            }, 
+            {
+                titulo: 'sorvete7',
+                msg: 'dlkasdlkajsdlkjasfbasicuyawekjbajgaskkjdaygscjhabsjyg',
+                img: require('/home/guidovin/Desktop/tribo-dev/tribo-info/src/resources/50x50.jpg'),
+            },
+            {   
+                titulo: 'sorvete8',
+                msg: 'dlkasdlkajsdlkjasfbasicuyawekjbajgaskkjdaygscjhabsjyg',
+                img: require('/home/guidovin/Desktop/tribo-dev/tribo-info/src/resources/50x50.jpg'),
+            },
+            {   
+                titulo: 'sorvete9ss',
+                msg: 'dlkasdlkajsdlkjasfbasicuyawekjbajgaskkjdaygscjhabsjyg',
+                img: require('/home/guidovin/Desktop/tribo-dev/tribo-info/src/resources/50x50.jpg'),
+            },
+            {   
+                titulo: 'sorvete9ss',
+                msg: 'dlkasdlkajsdlkjasfbasicuyawekjbajgaskkjdaygscjhabsjyg',
+                img: require('/home/guidovin/Desktop/tribo-dev/tribo-info/src/resources/50x50.jpg'),
+            },
+            {
+                titulo: 'sorvete1',
+                msg: 'dlkasdlkajsdlkjasfbasicuyawekjbajgaskkjdaygscjhabsjyg',
+                img: require('/home/guidovin/Desktop/tribo-dev/tribo-info/src/resources/50x50.jpg'),
+            },
+            {   
+                titulo: 'sorvete2',
+                msg: 'dlkasdlkajsdlkjasfbasicuyawekjbajgaskkjdaygscjhabsjyg',
+                img: require('/home/guidovin/Desktop/tribo-dev/tribo-info/src/resources/50x50.jpg'),
+            },
+            {   
+                titulo: 'sorvete3',
+                msg: 'dlkasdlkajsdlkjasfbasicuyawekjbajgaskkjdaygscjhabsjyg',
+                img: require('/home/guidovin/Desktop/tribo-dev/tribo-info/src/resources/50x50.jpg'),
+            }, 
+            {
+                titulo: 'sorvete4',
+                msg: 'dlkasdlkajsdlkjasfbasicuyawekjbajgaskkjdaygscjhabsjyg',
+                img: require('/home/guidovin/Desktop/tribo-dev/tribo-info/src/resources/50x50.jpg'),
+            },
+            {   
+                titulo: 'sorvete5',
+                msg: 'dlkasdlkajsdlkjasfbasicuyawekjbajgaskkjdaygscjhabsjyg',
+                img: require('/home/guidovin/Desktop/tribo-dev/tribo-info/src/resources/50x50.jpg'),
+            },
+            {   
+                titulo: 'sorvete6',
+                msg: 'dlkasdlkajsdlkjasfbasicuyawekjbajgaskkjdaygscjhabsjyg',
+                img: require('/home/guidovin/Desktop/tribo-dev/tribo-info/src/resources/50x50.jpg'),
+            }, 
+            {
+                titulo: 'sorvete7',
+                msg: 'dlkasdlkajsdlkjasfbasicuyawekjbajgaskkjdaygscjhabsjyg',
+                img: require('/home/guidovin/Desktop/tribo-dev/tribo-info/src/resources/50x50.jpg'),
+            },
+            {   
+                titulo: 'sorvete8',
+                msg: 'dlkasdlkajsdlkjasfbasicuyawekjbajgaskkjdaygscjhabsjyg',
+                img: require('/home/guidovin/Desktop/tribo-dev/tribo-info/src/resources/50x50.jpg'),
+            },
+            {   
+                titulo: 'sorvete9ss',
+                msg: 'dlkasdlkajsdlkjasfbasicuyawekjbajgaskkjdaygscjhabsjyg',
+                img: require('/home/guidovin/Desktop/tribo-dev/tribo-info/src/resources/50x50.jpg'),
+            },
+            {   
+                titulo: 'sorvete9s',
+                msg: 'dlkasdlkajsdlkjasfbasicuyawekjbajgaskkjdaygscjhabsjyg',
+                img: require('/home/guidovin/Desktop/tribo-dev/tribo-info/src/resources/50x50.jpg'),
             },
         ]
-
+     
         return(
-
-            <div className={StyleModule.InfoUL}>
+            
+            <div className={ModuleStyle.InfoUL} id='scrollTracker'>
                     
                     {lista.map( (a) => {
                         
                          return (
 
-                             <InfoListItem titulo={a.titulo} img={a.img} msg={a.msg} key={Math.random()}/>
-                             
+                             <InfoListItem titulo={a.titulo} img={a.img} msg={a.msg}  key={Math.random()}/>
+        
                             )
                     
                     })}
 
-                    
+                   
             </div>
         )
+
+        
+    }
+
+    componentDidMount() {
+        window.addEventListener('scroll', this.trackScrolling)
+    }
+
+    componentDidUpdate(){
+        window.addEventListener('scroll', this.trackScrolling)
+    }
+    
+    isBottom(el){
+        return el.getBoundingClientRect().bottom <= window.innerHeight;
+    }
+    
+    trackScrolling = () => {
+
+        const wrappedElement = document.getElementById('scrollTracker');
+        if (this.isBottom(wrappedElement)) {
+
+            this.props.onChange(true)
+            document.removeEventListener('scroll', this.trackScrolling)
+        }
+        else if (this.props.footerOn){
+            this.props.onChange(false);
+        }
     }
     
 }

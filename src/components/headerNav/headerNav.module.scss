@@ -1,0 +1,19 @@
+.HeaderNav {
+    
+    display: flex;
+    position: fixed;
+    top:0;
+    height: 15vh;
+
+    width: 100vw;
+    z-index:500;
+    background-color:rgb(215, 243, 92);
+    
+
+}
+.NavMenu {
+    width: 15vh;
+
+    background-color:rgb(92, 195, 243);
+    height: 100%;
+}

@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import Modal from 'react-responsive-modal'
-import ModuleStyle from '/home/guidovin/Desktop/tribo-dev/tribo-info/src/components/infoListItem/infolistitem.module.css'
+import ModuleStyle from '../infoListItem/infolistitem.module.css'
 
 
 /*
@@ -40,7 +40,7 @@ export default class ListItem extends Component{
             <div>
                 <div className={ModuleStyle.InfoLI} onClick={this.onOpenModal.bind(this)}>
                    
-                    <h3>{this.props.titulo}</h3>   
+                    <p className={ModuleStyle.ItemName}>{ this.props.titulo }</p> 
 
                 </div>
 

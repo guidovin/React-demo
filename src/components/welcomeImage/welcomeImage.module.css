@@ -1,2 +1,4 @@
 .WelcomeImage {
-  background-image: url("https://placeholdit.co//i/100x100?"); }
+  background-color: blueviolet;
+  height: 600px;
+  width: 100vw; }

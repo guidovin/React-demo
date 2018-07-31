@@ -1,0 +1,23 @@
+.sideNav {
+  height: 30vh;
+  width: 30vw;
+  position: fixed;
+  z-index: 1;
+  top: 15vh;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 1s;
+  padding-top: 60px; }
+
+.noSideNav {
+  height: 30vh;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 15vh;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 1s;
+  padding-top: 60px; }

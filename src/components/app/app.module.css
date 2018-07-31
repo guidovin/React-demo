@@ -1,4 +1,4 @@
-.root {
+.App {
   position: relative;
   background: no-repeat  center center fixed;
   -webkit-background-size: cover;
@@ -9,6 +9,3 @@
   width: 100vw;
   padding: 0px;
   margin: 0px; }
-
-.InfoUl {
-  width: 100vw; }
