@@ -1,5 +1,5 @@
 .HeaderNav {
-    
+
     display: flex;
     position: fixed;
     top:0;
@@ -8,7 +8,7 @@
     width: 100vw;
     z-index:500;
     background-color:rgb(215, 243, 92);
-    
+
 
 }
 .NavMenu {
@@ -16,4 +16,9 @@
 
     background-color:rgb(92, 195, 243);
     height: 100%;
+}
+.Navbar{
+  justify-content: flex-end;
+  flex-grow:1;
+  height:100%;
 }
